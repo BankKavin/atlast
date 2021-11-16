@@ -68,5 +68,6 @@
             <h1 class="py-5 px-5 mt-5 rounded-3 bg-warning"><?php if(isset($_POST['check_lotto'])){$lotto_num = $_POST['lottory_check'];check_lotto($lotto_num);}?></h1></div>
             <div><input class="py-3 px-5 btn btn-info btn-lg border border-secondary border-5 rounded-pill mb-5 ms-5"  type='submit' name='check_lotto' value='ตรวจรางวัล' style="width: 25%; font-size: 30px;"></div>
         </form></div>
+        <?php //test?>
 </body>
 </html>
